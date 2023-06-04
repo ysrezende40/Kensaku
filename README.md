@@ -25,9 +25,9 @@ Nossa página de mangás oferece uma série de recursos e funcionalidades para t
 
 Este projeto foi desenvolvido pela dupla Ysaac Rezende Queiroz e João Lucas Ribeiro da Rocha Santana. Estamos orgulhosos de ter aplicado os conhecimentos adquiridos durante o curso para criar essa plataforma de mangás.
 
-Esperamos que você desfrute da experiência proporcionada pela nossa página de mangás. Sinta-se à vontade para explorar os títulos, ler e compartilhar suas histórias favoritas.
 
-Divirta-se!
 
 *Melhor dupla da escola* 😉
+
+Link da apresentação do site: https://www.linkedin.com/posts/ysaac-rezende-queiroz-bb3a7022a_aqui-est%C3%A1-o-v%C3%ADdeo-de-apresenta%C3%A7%C3%A3o-do-projeto-activity-7071222377359056896-b-yg?utm_source=share&utm_medium=member_desktop
 
