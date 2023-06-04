@@ -1,0 +1,1384 @@
+body{
+    background-color: black;
+}
+
+h2 {
+    position: absolute;
+    font-family:"Courier New";
+    color: #cc0000;
+    margin-top: 30px;
+    margin-left: 440px;
+    padding: 30px;
+    
+ }
+
+h3 {
+    font-family: "Courier New";
+ }
+ 
+ p{
+  color: #cc0000;
+ }
+ .menu{
+    top: 0;
+    position: static;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+ }
+ a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+ }
+ a:hover{
+    color: red;
+ }
+
+/*Personalizando as tabelas do projeto*/
+table {
+         border-collapse: separate;
+         border-spacing: 40px 40px;
+         border-radius: 30px;
+         margin-top: 30px;
+} 
+td:hover{
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.4);
+
+}  
+
+th {
+    padding: 10px;    
+   
+    justify-content: center;
+    vertical-align: top;
+    padding: 10px;    
+    border-radius: 30px;
+    
+}
+th p{
+    color: red;
+}
+td {
+    justify-content: center;
+    vertical-align: middle;
+    
+}
+/*persolizando o logo da empresa*/
+#imglogo{
+    
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 540px;  
+}
+.logosobre{
+  position: absolute;
+  margin-left: 600px;  
+}
+.fundobranco{
+    background-color: white;
+    width: 100%;
+    height: 450px;
+}
+.logoempresa{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px
+ 
+}
+/*personalizando o resutado da busca em catalogo*/
+.resultados {
+    font-family: Arial, Helvetica, sans-serif;
+     color: red;
+    
+    
+}
+.resultado-item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 200px;  
+}
+/*personalizando o formularios da pagina*/
+form {
+    background-color: white;
+    border: 2px solid red;
+    padding: 20px;
+    width: 345px;
+    margin-top: 95px;
+    margin-left: 549px;
+    font-family: Arial, sans-serif;
+    border-radius: 30px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 95px;
+    height: 50px;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out; /* Adiciona transição suave para a animação */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #cc0000;
+    width: 100px;
+    height: 65px;
+    background-color: #CD0404;
+    transform: translateY(-2px); /* Eleva o botão ao passar o cursor sobre ele */ 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+   
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+input[type="date"],
+input[type="file"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.botãocata {
+  background-color: red; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  transition: all 0.2s ease-in-out;
+  border-radius: 30px;
+  width: 95px;
+}
+.botãocata:hover{
+  background-color: #CD0404;
+  transform: translateY(-2px); /* Eleva o botão ao passar o cursor sobre ele */ 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   height: 40px;
+   
+}
+.formcatalogo{
+  margin: 90px auto 90px auto; 
+  max-width: 500px; 
+}
+/*personalizar o rodapé da pagina*/
+.pfooter{
+  position: absolute;
+ color: black;
+ margin-top: 400px;
+
+ 
+}
+/*Personalizando a aba de lançamentos*/
+.h1lançamentos{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  color: #cc0000;
+  margin-left: 42%;
+
+ 
+
+}
+.h1lançamentos:hover{
+  color: #ccc;
+  box-shadow: 0px 0px 10px red;
+  transition: all 0.2s ease-in-out; /* Adiciona transição suave para a animação */
+}
+.thlanc{
+  border: 2px solid black;
+  
+}
+.hoverlanc:hover{
+  background-color: #cc0000;
+}
+/*Personalizando a aba de mangas*/
+.thmangas{
+  border: 2px solid black;
+}
+.thmangas:hover{
+  background-color: #cc0000;
+}
+.h4mangas{
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 70px;
+  color: #CD0404;
+  
+}
+.h1mangas{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  color: #cc0000;
+  margin-left: 43%;
+  
+ 
+}
+.h1mangas:hover{
+  color: #ccc;
+  box-shadow: 0px 0px 10px red;
+  transition: all 0.2s ease-in-out; /* Adiciona transição suave para a animação */
+
+}
+/*Personalizando os titulos dos animes de index*/
+.thindex{
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 25px;
+}
+.thindex:hover{
+  background-color: black;
+}
+/*inicio da personalização da aba sobre*/
+.textosobre {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 50px;
+}
+.textosobre p {
+  display: inline-block; 
+  vertical-align: middle; 
+  font-family: Arial, sans-serif; 
+  color: #ffffff; 
+  font-size: 1.2em;
+  line-height: 1.5em;
+  max-width: 800px; /* define a largura máxima do texto  */
+  margin: 0 auto;
+  padding: 20px; 
+
+}
+.logoistaysaac {
+  position: absolute;
+  float: left;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 700px;
+}
+
+.logoistaysaac:hover {
+  width: 65px;
+  height: 66px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  border-radius: 65px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.logoistajoão {
+  position: absolute;
+  float: left;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 600px;
+  
+  
+}
+
+.logoistajoão:hover {
+  width: 65px;
+  height: 66px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  border-radius: 65px;
+  display: flex;
+  justify-content: center;
+  
+ 
+}
+
+.logolinkedinjoão {
+  position: absolute;
+  float: left;
+  vertical-align: middle;
+  align-items: center;
+  margin-left: 500px; 
+  margin-top: 10px;;
+}
+.logolinkedinjoão:hover{
+  width: 65px;
+  height: 66px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  border-radius: 65px;
+  display: flex;
+  justify-content: center;
+
+}
+.logolinkedinysaac{
+  position: absolute;
+  float: left;
+  vertical-align: middle;
+  align-items: center;
+  margin-left: 400px; 
+  margin-top: 10px;;
+
+}
+.logolinkedinysaac:hover{
+  width: 65px;
+  height: 66px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  border-radius: 65px;
+  display: flex;
+  justify-content: center;
+
+}
+.logogmailysaac{
+  position: absolute;
+  float: left;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 800px;
+
+}
+.logogmailysaac:hover{
+  width: 65px;
+  height: 66px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  border-radius: 65px;
+  display: flex;
+  justify-content: center;
+
+}
+.logogmailjoão{
+  position: absolute;
+  float: left;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 900px;
+
+}
+.logogmailjoão:hover{
+  width: 65px;
+  height: 66px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  border-radius: 65px;
+  display: flex;
+  justify-content: center;
+
+}
+.mensagem-bem-vindo{
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*inicio da personalização da aba do topanimes*/
+.h2top{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  color: #cc0000;
+  margin-left: 43%;
+  margin-top: -10px;
+}
+.h2top:hover{
+  color: #ccc;
+  box-shadow: 0px 0px 10px red;
+  transition: all 0.2s ease-in-out; /* Adiciona transição suave para a animação */
+}
+
+.n1 {
+  display: inline-block;
+
+}
+#numeroumimagem{
+  border-radius: 30px;
+}
+.img1{
+ margin-left: 95px;
+margin-top: -113px;
+
+}
+#onepieceimagem{
+  border-radius: 30px;
+}
+.caixa1{
+  border: 5px solid rgb(248, 227, 227);
+  width: 600px;
+  height: 460px;
+  margin-right: 300px;
+  margin-left: 420px;
+  margin-top: -475px;
+  border-radius: 30px;
+}
+
+.caixa1 p{
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 127%;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+
+.avaliacaoonepiece{ 
+  margin-left: 100px;
+ margin-top: 480px;
+ position: absolute;
+ 
+}
+
+#avaliacao1{
+  border-radius: 30px;
+  width: 290px;
+  height: 40px;
+
+}
+
+.generoonepieceum p {
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generoonepieceum p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generoonepiecedois p {
+  position: absolute;
+  color: gray;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 65px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.generoonepiecedois p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generoonepiecetres p {
+  position: absolute;
+  color: gray;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 130px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;    
+}
+
+.generoonepiecetres p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generoonepiecequatro p{
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 195px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generoonepiecequatro p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* Final da personalização da categoria de top 1 one piece*/
+
+
+
+
+
+/* Personalizando as categoria de top 2 naruto*/
+
+.n2 {
+  display: inline-block;
+
+}
+#numerodoisimagem{
+  border-radius: 30px;
+}
+
+.img2{
+ margin-left: 95px;
+margin-top: -113px;
+
+}
+#narutoimagem{
+  border-radius: 30px;
+}
+.caixa2{
+  border: 5px solid rgb(248, 227, 227);
+  width: 600px;
+  height: 450px;
+  margin-right: 300px;
+  margin-left: 420px;
+  margin-top: -470px;
+  border-radius: 30px;
+}
+
+.caixa2 p{
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 127%;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.avaliacaonaruto{ 
+  margin-left: 100px;
+ margin-top: 480px;
+ position: absolute;
+ 
+}
+
+#avaliacao2{
+  border-radius: 30px;
+  width: 290px;
+  height: 40px;
+
+}
+
+.generonarutoum p {
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generonarutoum p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generonarutodois p {
+  position: absolute;
+  color: gray;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 65px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.generonarutodois p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generonarutotres p {
+  position: absolute;
+  color: gray;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 130px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;    
+}
+
+.generonarutotres p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generonarutoquatro p{
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 195px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generonarutoquatro p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* Final da personalização as categoria de top 2 naruto*/
+
+
+
+/* Personalizando as categoria de top 3 full metal*/
+
+
+
+.n3 {
+  display: inline-block;
+
+}
+#numerotresimagem{
+  border-radius: 30px;
+}
+.img3{
+ margin-left: 95px;
+margin-top: -113px;
+
+}
+#fullmetalimagem{
+  border-radius: 30px;
+}
+.caixa3{
+  border: 5px solid rgb(248, 227, 227);
+  width: 600px;
+  height: 450px;
+  margin-right: 300px;
+  margin-left: 420px;
+  margin-top: -470px;
+  border-radius: 30px;
+}
+
+.caixa3 p{
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 127%;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.avaliacaofull{ 
+  margin-left: 100px;
+ margin-top: 480px;
+ position: absolute;
+ 
+}
+
+#avaliacao3{
+  border-radius: 30px;
+  width: 290px;
+  height: 40px;
+
+}
+
+
+.generofullum p {
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generofullum p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generofulldois p {
+  position: absolute;
+  color: gray;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 68px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.generofulldois p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generofulltres p {
+  position: absolute;
+  color: gray;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 130px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;    
+}
+
+.generofulltres p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generofullquatro p{
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 190px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generofullquatro p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generofullcinco p{
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 250px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generofullcinco p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generofullseis p{
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 311px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generofullseis p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+/* Final da personalização  das categoria do top 3 full metal*/
+
+
+
+/* Personalizando as categoria de top 4 Berserk*/
+
+
+
+.n4 {
+  display: inline-block;
+
+}
+#numeroquatroimagem{
+  border-radius: 30px;
+}
+.img4{
+ margin-left: 95px;
+margin-top: -113px;
+
+}
+#bersekerimagem{
+  border-radius: 30px;
+}
+.caixa4{
+  border: 5px solid rgb(248, 227, 227);
+  width: 600px;
+  height: 425px;
+  margin-right: 300px;
+  margin-left: 420px;
+  margin-top: -440px;
+  border-radius: 30px;
+}
+
+.caixa4 p{
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 127%;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.avaliacaoberserk{ 
+  margin-left: 100px;
+ margin-top: 455px;
+ position: absolute;
+ 
+}
+
+#avaliacao4{
+  border-radius: 30px;
+  width: 290px;
+  height: 40px;
+
+}
+
+.generoberserkum p {
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generoberserkum p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generoberserkdois p {
+  position: absolute;
+  color: gray;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 70px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.generoberserkdois p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generoberserktres p {
+  position: absolute;
+  color: gray;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 130px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;    
+}
+
+.generoberserktres p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generoberserkquatro p{
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 190px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generoberserkquatro p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* Final da personalização  das categoria do Berserk*/
+
+
+
+
+/*  Personalização  das categoria do top 5 monster*/
+
+
+
+.n5 {
+  display: inline-block;
+
+}
+#numerocincoimagem{
+  border-radius: 30px;
+}
+.img5{
+ margin-left: 95px;
+margin-top: -113px;
+
+}
+#monsterimagem{
+  border-radius: 30px;
+}
+.caixa5{
+  border: 5px solid rgb(248, 227, 227);
+  width: 600px;
+  height: 420px;
+  margin-right: 300px;
+  margin-left: 420px;
+  margin-top: -435px;
+  border-radius: 30px;
+}
+
+.caixa5 p{
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 127%;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.avaliacaomonster{ 
+  margin-left: 100px;
+ margin-top: 455px;
+ position: absolute;
+ 
+}
+
+#avaliacao5{
+  border-radius: 30px;
+  width: 290px;
+  height: 40px;
+
+}
+
+.generomonsterum p {
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 12px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generomonsterum p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generomonsterdois p {
+  position: absolute;
+  color: gray;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 72px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.generomonsterdois p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generomonstertres p {
+  position: absolute;
+  color: gray;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 130px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;    
+}
+
+.generomonstertres p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.generomonsterquatro p{
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 1055px;
+  margin-top: 190px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.generomonsterquatro p:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+/* Final da personalização  das categoria de monster*/
+
+
+
+
+.n6 {
+  display: inline-block;
+
+}
+#numeroseisimagem{
+  border-radius: 30px;
+}
+.img6{
+ margin-left: 95px;
+margin-top: -113px;
+
+}
+#slamimagem{
+  border-radius: 30px;
+}
+.caixa6{
+  border: 5px solid rgb(248, 227, 227);
+  width: 600px;
+  height: 450px;
+  margin-right: 300px;
+  margin-left: 420px;
+  margin-top: -465px;
+  border-radius: 30px;
+}
+
+.caixa6 p{
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 127%;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.n7 {
+  display: inline-block;
+
+}
+#numeroseteimagem{
+  border-radius: 30px;
+}
+.img7{
+ margin-left: 95px;
+margin-top: -113px;
+
+}
+#vilandimagem{
+  border-radius: 30px;
+}
+.caixa7{
+  border: 5px solid rgb(248, 227, 227);
+  width: 600px;
+  height: 418px;
+  margin-right: 300px;
+  margin-left: 420px;
+  margin-top: -428px;
+  border-radius: 30px;
+}
+
+.caixa7 p{
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 127%;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.n8 {
+  display: inline-block;
+
+}
+#numerooitoimagem{
+  border-radius: 30px;
+}
+.img8{
+ margin-left: 95px;
+margin-top: -113px;
+
+}
+#vagabondimagem{
+  border-radius: 30px;
+}
+.caixa8{
+  border: 5px solid rgb(248, 227, 227);
+  width: 600px;
+  height: 415px;
+  margin-right: 300px;
+  margin-left: 420px;
+  margin-top: -428px;
+  border-radius: 30px;
+}
+
+.caixa8 p{
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 127%;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.n9 {
+  display: inline-block;
+
+}
+#numeronoveimagem{
+  border-radius: 30px;
+}
+.img9{
+ margin-left: 95px;
+margin-top: -113px;
+
+}
+#punpunimagem{
+  border-radius: 30px;
+}
+.caixa9{
+  border: 5px solid rgb(248, 227, 227);
+  width: 600px;
+  height: 428px;
+  margin-right: 300px;
+  margin-left: 420px;
+  margin-top: -442px;
+  border-radius: 30px;
+}
+
+.caixa9 p{
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 127%;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.n10 {
+  display: inline-block;
+
+}
+#numerodezimagem{
+  border-radius: 30px;
+}
+.img10{
+ margin-left: 95px;
+margin-top: -113px;
+
+}
+#kingdomimagem{
+  border-radius: 30px;
+}
+.caixa10{
+  border: 5px solid rgb(248, 227, 227);
+  width: 600px;
+  height: 415px;
+  margin-right: 300px;
+  margin-left: 420px;
+  margin-top: -430px;
+  border-radius: 30px;
+}
+
+.caixa10 p{
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 127%;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
